@@ -1,0 +1,101 @@
+:root {
+  --color-text-primary: #1c2a38;
+  --color-text-secondary: #8A8F98;
+  --color-text-alert: #d72641;
+  --color-text-icon: #dbdade;
+  --color-bg-primary: #fff;
+  --color-bg-secondary: #f3f5f9;
+  --color-bg-alert: #fdeaec;
+  --color-theme-primary: #623ce6;
+}
+
+.containerScorer {
+  background-color: var(--color-bg-primary);
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  max-height: 200px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 2px 0 rgba(#303030, 0.1), 0 4px 4px 0 rgba(#303030, 0.1);
+  margin-bottom: 16px;
+}
+
+.match-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4px;
+}
+
+.score-info{ 
+  margin: 2px 0;
+  color: #0e5499;
+  font-weight: bold;
+
+}
+.stadium-info{
+
+    margin: 2px 0;
+    color: #5c6a78;
+  }
+
+
+.team-info{ 
+  margin: 2px 0;
+  color: #000000;
+  font-weight: bold;
+
+}
+
+.result-info{ 
+  margin: 2px 0;
+  color: #08ac78;
+  font-weight: bold;
+
+}
+
+.date-time-info,
+.match-date,
+.match-referee,
+.match-score,
+.match-time-lapsed,
+.team-name {
+  margin: 2px 0;
+  color: #1c2a38;
+}
+
+.team-logo {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: var(--color-bg-primary);
+  box-shadow: 0 2px 2px 0 rgba(#303030, 0.1),
+    0 0 0 5px var(--color-bg-secondary);
+}
+
+.team-logo img {
+  width: 20px;
+}
+
+.match-score-number {
+  font-size: 18px;
+}
+
+.match-score-divider {
+  font-size: 10px;
+  margin: 0 2px;
+}
+
+.team-name,
+.result-info,
+.date-time-info {
+  font-size: 12px;
+}
+
+.match-time-lapsed {
+  font-size: 8px;
+}
